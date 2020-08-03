@@ -1,0 +1,1 @@
+This is version 2 of the rock paper scissors game. It is implimentation of jvascript controling DOM.
