@@ -1,0 +1,38 @@
+.container{
+    width: auto;
+    height:auto;
+    display: grid;
+    text-align: center;
+    grid-template:1fr 3fr 3fr/1fr 1fr;
+    grid-template-areas: "heading heading" "player computer" "result result";
+    border-style: solid;
+    border-radius: 10px;
+}
+form{
+    text-align: left;
+    padding-left: 10%;
+}
+button{
+    position: relative;
+    left:40%
+}
+#heading{
+    grid-area: heading;
+    background-color: rgba(90, 214, 18, 0.87);
+}
+#player{
+    grid-area: player;
+    background-color: rgba(22, 192, 184, 0.555);
+    padding-bottom: 10%;
+}
+#computer{
+    grid-area: computer;
+    background-color: rgba(219, 77, 11, 0.747);
+}
+#result{
+    grid-area: result;
+    background-color: rgba(187, 20, 112, 0.877);
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
